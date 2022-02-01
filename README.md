@@ -1,2 +1,2 @@
 # BubbleStruggle
-Creating a game with using unity for school project
+Creating a game with unity. For school project.
