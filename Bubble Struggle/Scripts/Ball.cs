@@ -16,10 +16,10 @@ public class Ball : MonoBehaviour
 
 
     
-    public void Split() //Bu topu yok edip yerine 2 tane nextball objesi gelecek
+    public void Split()
     {
 
-        if(nextBall != null) //Bu çizginin topa deðip deðmediðimi kontrol ediyor. 
+        if(nextBall != null)
         {
 
             GameObject ball1 = Instantiate(nextBall, rb.position + Vector2.right / 4f, Quaternion.identity);
